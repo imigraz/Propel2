@@ -8,8 +8,8 @@
 
 namespace Propel\Runtime\ActiveQuery\QueryExecutor;
 
-use Propel\Runtime\Exception\RuntimeException;
+use Propel\Runtime\Exception\PropelException;
 
-class QueryExecutionException extends RuntimeException
+class QueryExecutionException extends PropelException
 {
 }
